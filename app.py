@@ -22,7 +22,7 @@ st.divider()
 @st.cache_resource
 def load_ann_model():
   """Loads and caches the trained Keras model so it isn't reloaded on every rerun."""
-  return tf.keras.models.load_model("employee_performance.keras")
+  return tf.keras.models.load_model("employee_performance_ann.keras")
 
 
 try:
